@@ -16,6 +16,7 @@ A Java console application to manage books in a library with full CRUD functiona
 - **JDBC** – Java Database Connectivity for interacting with MySQL.  
 
 ## Project Structure
+```
 libraryManagement/
  ├─ src/
  │   └─ libraryManagement/
@@ -25,7 +26,7 @@ libraryManagement/
  │      ├─ Book.java ← Book model
  │      └─ BookCRUD.java ← CRUD operations
  └─ src/config.properties ← Database configuration (ignored in git)
-
+```
 
 Usage
 - Add new books by providing title, author, and year. 
