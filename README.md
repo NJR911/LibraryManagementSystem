@@ -17,14 +17,15 @@ A Java console application to manage books in a library with full CRUD functiona
 
 ## Project Structure
 libraryManagement/
-├─ src/
-│ └─ libraryManagement/
-│ ├─ Main.java ← Entry point
-│ ├─ DBConnection.java ← Handles DB connection
-│ ├─ DBSetup.java ← Creates DB and tables
-│ ├─ Book.java ← Book model
-│ └─ BookCRUD.java ← CRUD operations
-└─ src/config.properties ← Database configuration (ignored in git)
+ ├─ src/
+ │   └─ libraryManagement/
+ │      ├─ Main.java ← Entry point
+ │      ├─ DBConnection.java ← Handles DB connection
+ │      ├─ DBSetup.java ← Creates DB and tables
+ │      ├─ Book.java ← Book model
+ │      └─ BookCRUD.java ← CRUD operations
+ └─ src/config.properties ← Database configuration (ignored in git)
+
 
 Usage
 - Add new books by providing title, author, and year. 
